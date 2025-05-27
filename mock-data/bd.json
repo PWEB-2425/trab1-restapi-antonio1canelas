@@ -1,0 +1,35 @@
+{
+  "alunos": [
+    {
+      "nome": "Joana",
+      "apelido": "Silva",
+      "curso": "Engenharia Informática",
+      "anoCurricular": 2,
+      "id": "1"
+    },
+    {
+      "id": "43e7",
+      "nome": "canelas",
+      "apelido": "pedro",
+      "curso": "ERSC",
+      "anoCurricular": 2
+    },
+    {
+      "nome": "Pedro",
+      "apelido": "Canelas",
+      "curso": "ERSC",
+      "anoCurricular": 1,
+      "id": "4d75"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "1",
+      "nomeDoCurso": "Engenharia Informática"
+    },
+    {
+      "id": "2",
+      "nomeDoCurso": "Design Multimédia"
+    }
+  ]
+}

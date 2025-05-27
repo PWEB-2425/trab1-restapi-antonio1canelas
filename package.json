@@ -1,0 +1,15 @@
+{
+  "name": "trabalho-pw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start:server": "json-server --watch mock-data/bd.json --port 3001"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
