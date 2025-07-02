@@ -90,4 +90,3 @@ app.listen(PORT, () => {
   .catch(err => {
     console.error('Erro ao ligar ao MongoDB:', err);
   });
-9
