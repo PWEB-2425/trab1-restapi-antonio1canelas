@@ -79,11 +79,13 @@ app.delete('/alunos/:id', async (req, res) => {
 });
 
 // Conexão ao MongoDB
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
-    app.listen(3000, () => {
-      console.log('✅ API real a correr em http://localhost:3000');
-    });
+    const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`✅ API real a correr na porta ${PORT}`);
+});
+
   })
   .catch(err => {
     console.error('Erro ao ligar ao MongoDB:', err);
